@@ -26,7 +26,7 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
               onClick={() => {
                 onTaskClick(task.id);
               }}
-              className={`bg-slate-400 text-left w-full text-white p-2 rounded-md flex${
+              className={`bg-slate-400 text-left w-full text-white p-2 rounded-md flex ${
                 task.isCompleted && "line-through"
               }`}
             >
